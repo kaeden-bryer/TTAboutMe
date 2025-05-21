@@ -160,3 +160,27 @@ img:hover {
     width: 50%;
     animation: none;
 }
+
+/* styles for albums */
+.albums {
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-self: center;
+}
+
+.album-cover {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+#album-header {
+    margin-top: 150px;
+    font-size: 64px;
+    font-style: oblique;
+    font-family: "Charm", cursive;
+}
