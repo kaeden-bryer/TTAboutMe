@@ -85,7 +85,7 @@ function newGame(){
     for (let i = 0; i < 9; i++){
         map.set(squares[i], false);
         squares[i].textContent = "";
-        squares[i].style.backgroundColor = "whitesmoke";
+        squares[i].style.backgroundColor = "white";
         description.innerText = "New Game";
         game = true;
     }
