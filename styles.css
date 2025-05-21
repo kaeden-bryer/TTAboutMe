@@ -134,7 +134,6 @@ img:hover {
     justify-content: center;
     align-items: center;
     align-content: center;
-    border: solid;
 }
 
 .square {
@@ -168,13 +167,12 @@ img:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 70%;
+    width: 60vw;
     justify-self: center;
 }
 
 .album-cover {
-    width: 300px;
-    height: 300px;
+    flex: 1 0 25%;
     border-radius: 30px;
 }
 
