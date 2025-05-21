@@ -1,0 +1,156 @@
+body {
+    background-color: papayawhip;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header, nav {
+    background-color: navy;
+    display: flex;
+    color: white;
+    width: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navElement {
+    padding: 50px;
+    display: flex;
+    color: white;
+    font-size: 24px;
+}
+
+.navElement:hover {
+    color: pink;
+}
+
+h1 {
+    font-size: 86px;
+}
+.pic-container {
+    color: black;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    border: solid;
+    border-color: saddlebrown;
+    border-radius: 20px;
+}
+
+
+img {
+    width: 250px;
+    padding: 8px;
+}
+
+.text {
+    display:block;
+}
+
+img:hover {
+    animation-name: wobble;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes wobble {
+    0% {transform: rotate(0deg)}
+    25% {transform: rotate(5deg)}
+    50% {transform: rotate(0deg)}
+    75% {transform: rotate(-5deg)}
+}
+
+.footer {
+    background-color: midnightblue;
+    color: whitesmoke;
+    font-size: 30px;
+    height: 70px;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.socials-container{
+    margin-top: 80px;
+}
+
+.block {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: midnightblue;
+    border: solid;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-container {
+    color: black;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+    border: solid;
+    border-color: saddlebrown;
+    border-radius: 20px;
+}
+
+.flex-form {
+    display: flex;
+    justify-content: center;
+}
+
+/* styles for the game */
+
+.gameboard {
+    width: 618px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: solid;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: solid;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-description {
+    font-family: sans-serif;
+    font-size: 36px;
+}
