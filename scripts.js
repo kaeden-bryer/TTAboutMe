@@ -71,7 +71,7 @@ function checkWin() {
     }
 
     if (count >= 9) {
-        description.innerText = "It's a draw! Click to play again."
+        description.innerText = '"You\'ve lost the game"';
         for (let i = 0; i < 9; i++) {
             squares[i].style.backgroundColor = "red";
         }
